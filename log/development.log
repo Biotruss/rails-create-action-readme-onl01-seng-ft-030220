@@ -56,3 +56,10 @@ Processing by PostsController#new as HTML
 Completed 200 OK in 461ms (Views: 454.0ms | ActiveRecord: 0.8ms)
 
 
+Started POST "/posts" for 162.251.236.7 at 2020-05-15 09:53:30 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W1jrKd3fEj9OdcCRG2Nm/EdgxPhqGn4uz2quM5ORsOiAWWZYucSNCGrjvqKWJNVqCc/DUOXquXpGeMQP/X2fGw==", "title"=>"hello", "description"=>"world", "commit"=>"Submit Post"}
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 10ms (ActiveRecord: 0.0ms)
+
+
